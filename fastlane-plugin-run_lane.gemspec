@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = %q{jonathan.ritchie@orionhealth.com}
 
   spec.summary       = %q{Run a specified fastlane lane in your project.}
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-run_lane"
+  spec.homepage      = "https://github.com/jonathanneilritchie/fastlane-plugin-run_lane"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
