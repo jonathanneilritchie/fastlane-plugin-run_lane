@@ -15,7 +15,6 @@ module Fastlane
                 UI.message("Options string: '#{options_base_string}'")
 
                 UI.message("Excuting shell command...")
-                puts system("ls")
                 system("fastlane #{lane_name} #{options_base_string}")
 
                 UI.success("Fastlane lane run successfully!")
