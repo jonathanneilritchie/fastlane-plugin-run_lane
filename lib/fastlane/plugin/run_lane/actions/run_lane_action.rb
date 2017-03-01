@@ -10,7 +10,7 @@ module Fastlane
                 options_string = "option"
                 length_of_array = options.length - 1
                 for i in 0..length_of_array do
-                    options_base_string = "#{options_base_string}#{options_string}#{i}:\"#{options[i]}\" "
+                    options_base_string = "#{options_base_string}#{options_string}#{i}:#{options[i]} "
                 end
                 UI.message("Options string: '#{options_base_string}'")
 
